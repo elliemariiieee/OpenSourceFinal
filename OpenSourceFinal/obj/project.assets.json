@@ -1,0 +1,1126 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AlphaFS/2.2.6": {
+        "type": "package",
+        "compile": {
+          "lib/net452/AlphaFS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/AlphaFS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AsyncEnumerator/4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncEnumerable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncEnumerable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Autoupdater.NET.Official/1.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoUpdater.NET.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/AutoUpdater.NET.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "resource": {
+          "lib/net35/ar/AutoUpdater.NET.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net35/cs/AutoUpdater.NET.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net35/da/AutoUpdater.NET.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net35/de/AutoUpdater.NET.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35/es/AutoUpdater.NET.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35/fr/AutoUpdater.NET.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35/it/AutoUpdater.NET.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35/ja-JP/AutoUpdater.NET.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net35/ko/AutoUpdater.NET.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net35/nl/AutoUpdater.NET.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net35/pl/AutoUpdater.NET.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net35/pt-BR/AutoUpdater.NET.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net35/pt/AutoUpdater.NET.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35/ru/AutoUpdater.NET.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35/sk/AutoUpdater.NET.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35/sv/AutoUpdater.NET.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35/th/AutoUpdater.NET.resources.dll": {
+            "locale": "th"
+          },
+          "lib/net35/tr/AutoUpdater.NET.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35/zh-tw/AutoUpdater.NET.resources.dll": {
+            "locale": "zh-tw"
+          },
+          "lib/net35/zh/AutoUpdater.NET.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "CliWrap/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/CliWrap.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/CliWrap.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ControlzEx/3.0.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ControlzEx.dll": {
+            "related": ".pdb"
+          },
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ControlzEx.dll": {
+            "related": ".pdb"
+          },
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Costura.Fody/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.0.0"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Fody/6.3.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "gong-wpf-dragdrop/2.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Gu.Localization/6.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Gu.Localization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Gu.Localization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Gu.Wpf.Localization/6.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Gu.Localization": "6.7.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Gu.Wpf.Localization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Gu.Wpf.Localization.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MahApps.Metro/1.6.5": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[3.0.2.4, 4.0.0)"
+        },
+        "compile": {
+          "lib/net46/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[3.0.2.4, 4.0.0)"
+        },
+        "compile": {
+          "lib/net46/MahApps.Metro.IconPacks.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net46/MahApps.Metro.IconPacks.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MvvmWizard/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MvvmWizard.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MvvmWizard.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NLog/4.7.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NLog.Config/4.7.6": {
+        "type": "package",
+        "dependencies": {
+          "NLog": "4.7.6",
+          "NLog.Schema": "4.7.6"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "NLog.Schema/4.7.6": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "PropertyChanged.Fody/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Resource.Embedder/2.1.1": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Steam Library Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AlphaFS": "2.2.6",
+          "AsyncEnumerator": "4.0.2",
+          "Autoupdater.NET.Official": "1.6.4",
+          "CliWrap": "2.5.0",
+          "Costura.Fody": "4.1.0",
+          "Gu.Wpf.Localization": "6.7.0",
+          "MahApps.Metro": "1.6.5",
+          "MahApps.Metro.IconPacks": "2.3.0",
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
+          "MvvmWizard": "1.1.1",
+          "NLog.Config": "4.7.6",
+          "Newtonsoft.Json": "12.0.3",
+          "PropertyChanged.Fody": "3.3.1",
+          "Resource.Embedder": "2.1.1",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.ValueTuple": "4.5.0",
+          "gong-wpf-dragdrop": "2.3.2"
+        },
+        "compile": {
+          "bin/placeholder/Steam Library Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Steam Library Manager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlphaFS/2.2.6": {
+      "sha512": "shpn9XCIoujKzyWUygsiLRKuua46XET6+vOtuu0CwpXtjQDybWCNp7sN8DUJRjbZf/uufy6U9gM7cm/W10JHAw==",
+      "type": "package",
+      "path": "alphafs/2.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alphafs.2.2.6.nupkg.sha512",
+        "alphafs.nuspec",
+        "lib/net35/AlphaFS.dll",
+        "lib/net35/AlphaFS.pdb",
+        "lib/net35/AlphaFS.xml",
+        "lib/net40/AlphaFS.dll",
+        "lib/net40/AlphaFS.pdb",
+        "lib/net40/AlphaFS.xml",
+        "lib/net45/AlphaFS.dll",
+        "lib/net45/AlphaFS.pdb",
+        "lib/net45/AlphaFS.xml",
+        "lib/net451/AlphaFS.dll",
+        "lib/net451/AlphaFS.pdb",
+        "lib/net451/AlphaFS.xml",
+        "lib/net452/AlphaFS.dll",
+        "lib/net452/AlphaFS.pdb",
+        "lib/net452/AlphaFS.xml"
+      ]
+    },
+    "AsyncEnumerator/4.0.2": {
+      "sha512": "mjBg9pGuQVbCeC/3t75B74mRjIIqOg6o212CJ7g37wRrPIJTGzuFKo9/TsVuJl2by2I1ESJLyFnNFHHEMRUysA==",
+      "type": "package",
+      "path": "asyncenumerator/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asyncenumerator.4.0.2.nupkg.sha512",
+        "asyncenumerator.nuspec",
+        "lib/net45/AsyncEnumerable.dll",
+        "lib/net45/AsyncEnumerable.xml",
+        "lib/net461/AsyncEnumerable.dll",
+        "lib/net461/AsyncEnumerable.xml",
+        "lib/netstandard1.4/AsyncEnumerable.dll",
+        "lib/netstandard1.4/AsyncEnumerable.xml",
+        "lib/netstandard2.0/AsyncEnumerable.dll",
+        "lib/netstandard2.0/AsyncEnumerable.xml",
+        "lib/netstandard2.1/AsyncEnumerable.dll",
+        "lib/netstandard2.1/AsyncEnumerable.xml"
+      ]
+    },
+    "Autoupdater.NET.Official/1.6.4": {
+      "sha512": "XBolz4NgByGCmNT9ivBmA9uvBQxxESo3kCXImCzYQJddxn3oVFCaEuMfI1AiDvBvCFnVZ7c/2WnSmCUx7gI24g==",
+      "type": "package",
+      "path": "autoupdater.net.official/1.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autoupdater.net.official.1.6.4.nupkg.sha512",
+        "autoupdater.net.official.nuspec",
+        "lib/net20/AutoUpdater.NET.dll",
+        "lib/net20/AutoUpdater.NET.pdb",
+        "lib/net20/AutoUpdater.NET.xml",
+        "lib/net20/ar/AutoUpdater.NET.resources.dll",
+        "lib/net20/cs/AutoUpdater.NET.resources.dll",
+        "lib/net20/da/AutoUpdater.NET.resources.dll",
+        "lib/net20/de/AutoUpdater.NET.resources.dll",
+        "lib/net20/es/AutoUpdater.NET.resources.dll",
+        "lib/net20/fr/AutoUpdater.NET.resources.dll",
+        "lib/net20/it/AutoUpdater.NET.resources.dll",
+        "lib/net20/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net20/ko/AutoUpdater.NET.resources.dll",
+        "lib/net20/nl/AutoUpdater.NET.resources.dll",
+        "lib/net20/pl/AutoUpdater.NET.resources.dll",
+        "lib/net20/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net20/pt/AutoUpdater.NET.resources.dll",
+        "lib/net20/ru/AutoUpdater.NET.resources.dll",
+        "lib/net20/sk/AutoUpdater.NET.resources.dll",
+        "lib/net20/sv/AutoUpdater.NET.resources.dll",
+        "lib/net20/th/AutoUpdater.NET.resources.dll",
+        "lib/net20/tr/AutoUpdater.NET.resources.dll",
+        "lib/net20/zh-tw/AutoUpdater.NET.resources.dll",
+        "lib/net20/zh/AutoUpdater.NET.resources.dll",
+        "lib/net35/AutoUpdater.NET.dll",
+        "lib/net35/AutoUpdater.NET.pdb",
+        "lib/net35/AutoUpdater.NET.xml",
+        "lib/net35/ar/AutoUpdater.NET.resources.dll",
+        "lib/net35/cs/AutoUpdater.NET.resources.dll",
+        "lib/net35/da/AutoUpdater.NET.resources.dll",
+        "lib/net35/de/AutoUpdater.NET.resources.dll",
+        "lib/net35/es/AutoUpdater.NET.resources.dll",
+        "lib/net35/fr/AutoUpdater.NET.resources.dll",
+        "lib/net35/it/AutoUpdater.NET.resources.dll",
+        "lib/net35/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net35/ko/AutoUpdater.NET.resources.dll",
+        "lib/net35/nl/AutoUpdater.NET.resources.dll",
+        "lib/net35/pl/AutoUpdater.NET.resources.dll",
+        "lib/net35/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net35/pt/AutoUpdater.NET.resources.dll",
+        "lib/net35/ru/AutoUpdater.NET.resources.dll",
+        "lib/net35/sk/AutoUpdater.NET.resources.dll",
+        "lib/net35/sv/AutoUpdater.NET.resources.dll",
+        "lib/net35/th/AutoUpdater.NET.resources.dll",
+        "lib/net35/tr/AutoUpdater.NET.resources.dll",
+        "lib/net35/zh-tw/AutoUpdater.NET.resources.dll",
+        "lib/net35/zh/AutoUpdater.NET.resources.dll",
+        "lib/net40/AutoUpdater.NET.dll",
+        "lib/net40/AutoUpdater.NET.pdb",
+        "lib/net40/AutoUpdater.NET.xml",
+        "lib/net45/AutoUpdater.NET.dll",
+        "lib/net45/AutoUpdater.NET.pdb",
+        "lib/net45/AutoUpdater.NET.xml"
+      ]
+    },
+    "CliWrap/2.5.0": {
+      "sha512": "A4tUDMveU0SaFZW8HQF1HZysgNEAC/OD90rx2dfliAHwjtZ9E/jzFkLpa3HHFRkQDL7hlBlmc8GyolkNWmnCSg==",
+      "type": "package",
+      "path": "cliwrap/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cliwrap.2.5.0.nupkg.sha512",
+        "cliwrap.nuspec",
+        "favicon.png",
+        "lib/net45/CliWrap.dll",
+        "lib/net45/CliWrap.xml",
+        "lib/netcoreapp3.0/CliWrap.dll",
+        "lib/netcoreapp3.0/CliWrap.xml",
+        "lib/netstandard2.0/CliWrap.dll",
+        "lib/netstandard2.0/CliWrap.xml"
+      ]
+    },
+    "ControlzEx/3.0.2.4": {
+      "sha512": "5pgvHE329JDDPwPHCVJe93yxu3CPl2wPh6ma1watUAGjvBtNSMkDcyzvwZcHSryihA/y4Ml3OmDYz9vj7Fg6Xg==",
+      "type": "package",
+      "path": "controlzex/3.0.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.3.0.2.4.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net40/ControlzEx.dll",
+        "lib/net40/ControlzEx.pdb",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net45/ControlzEx.dll",
+        "lib/net45/ControlzEx.pdb",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.pdb",
+        "lib/net462/System.Windows.Interactivity.dll"
+      ]
+    },
+    "Costura.Fody/4.1.0": {
+      "sha512": "MkW5aqhqNvuP6MiaaD5Yx8efXv+5ucsumRx+Nsn5b+PA4RnaxJLtXhGkm1N+Hi7sjkSlL8kl1klSS/7v2DxZHw==",
+      "type": "package",
+      "path": "costura.fody/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Costura.Fody.props",
+        "costura.fody.4.1.0.nupkg.sha512",
+        "costura.fody.nuspec",
+        "lib/net40/Costura.dll",
+        "lib/net40/Costura.xml",
+        "weaver/Costura.Fody.dll",
+        "weaver/Costura.Fody.xcf"
+      ]
+    },
+    "Fody/6.3.0": {
+      "sha512": "kBGlW/vBUvBSyCvFI3YICNl77gjUr0KMROlBTeBPN/+J3JMU57w1dpXPwjmU4ahdBTYLomzgxKLaJ3jVNuXuQg==",
+      "type": "package",
+      "path": "fody/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.3.0.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "gong-wpf-dragdrop/2.3.2": {
+      "sha512": "DNDROdFmlwn544P2qVF+f+aHRZmEp8ub8IrjvWgT3VAK7LfdN3BcEi9mSEzmt8hUqIdt1+B1VHkJUdK7kO/zKw==",
+      "type": "package",
+      "path": "gong-wpf-dragdrop/2.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "GongSolutions.Wpf.DragDrop.png",
+        "LICENSE",
+        "gong-wpf-dragdrop.2.3.2.nupkg.sha512",
+        "gong-wpf-dragdrop.nuspec",
+        "lib/net45/GongSolutions.WPF.DragDrop.dll",
+        "lib/net45/GongSolutions.WPF.DragDrop.pdb",
+        "lib/net45/GongSolutions.WPF.DragDrop.xml",
+        "lib/net46/GongSolutions.WPF.DragDrop.dll",
+        "lib/net46/GongSolutions.WPF.DragDrop.pdb",
+        "lib/net46/GongSolutions.WPF.DragDrop.xml",
+        "lib/net47/GongSolutions.WPF.DragDrop.dll",
+        "lib/net47/GongSolutions.WPF.DragDrop.pdb",
+        "lib/net47/GongSolutions.WPF.DragDrop.xml",
+        "lib/netcoreapp3.0/GongSolutions.WPF.DragDrop.dll",
+        "lib/netcoreapp3.0/GongSolutions.WPF.DragDrop.pdb",
+        "lib/netcoreapp3.0/GongSolutions.WPF.DragDrop.xml",
+        "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.dll",
+        "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.pdb",
+        "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.xml"
+      ]
+    },
+    "Gu.Localization/6.7.0": {
+      "sha512": "vLQCsanHnHDQJPWqsPRk01PC5lTp5HMIOggIkZ7Bep0Djt516lDcIElj9jSRdHnZ5+2UUFbf2Fn7K4o9dlSHlw==",
+      "type": "package",
+      "path": "gu.localization/6.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gu.localization.6.7.0.nupkg.sha512",
+        "gu.localization.nuspec",
+        "lib/net45/Gu.Localization.dll",
+        "lib/net45/Gu.Localization.xml",
+        "lib/netcoreapp3.1/Gu.Localization.dll",
+        "lib/netcoreapp3.1/Gu.Localization.xml",
+        "lib/netstandard2.0/Gu.Localization.dll",
+        "lib/netstandard2.0/Gu.Localization.xml",
+        "lib/netstandard2.1/Gu.Localization.dll",
+        "lib/netstandard2.1/Gu.Localization.xml"
+      ]
+    },
+    "Gu.Wpf.Localization/6.7.0": {
+      "sha512": "jCW+Z0x8JeV92P4ThL7G7oM5pBiDXDofkArzAK0PrEeIQRICGf6UQGOFV2F11t/lC6ULiJvJ1MIDy9A6rMa8bQ==",
+      "type": "package",
+      "path": "gu.wpf.localization/6.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gu.wpf.localization.6.7.0.nupkg.sha512",
+        "gu.wpf.localization.nuspec",
+        "lib/net45/Gu.Wpf.Localization.dll",
+        "lib/net45/Gu.Wpf.Localization.xml",
+        "lib/netcoreapp3.1/Gu.Wpf.Localization.dll",
+        "lib/netcoreapp3.1/Gu.Wpf.Localization.xml"
+      ]
+    },
+    "MahApps.Metro/1.6.5": {
+      "sha512": "XFxACnPbTAZ9qYcXMqFDLXXEpAbLj3BYaXqwH8NoY0sfSAYepEpE4C53Nd6AI4TnQ+nmDugtO8dwsAXPtt0SXQ==",
+      "type": "package",
+      "path": "mahapps.metro/1.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MahApps.Metro.dll",
+        "lib/net40/MahApps.Metro.pdb",
+        "lib/net40/MahApps.Metro.xml",
+        "lib/net45/MahApps.Metro.dll",
+        "lib/net45/MahApps.Metro.pdb",
+        "lib/net45/MahApps.Metro.xml",
+        "lib/net46/MahApps.Metro.dll",
+        "lib/net46/MahApps.Metro.pdb",
+        "lib/net46/MahApps.Metro.xml",
+        "lib/net47/MahApps.Metro.dll",
+        "lib/net47/MahApps.Metro.pdb",
+        "lib/net47/MahApps.Metro.xml",
+        "mahapps.metro.1.6.5.nupkg.sha512",
+        "mahapps.metro.nuspec"
+      ]
+    },
+    "MahApps.Metro.IconPacks/2.3.0": {
+      "sha512": "c9fy3MA/a5SnAC4n8RPxyGt/v7gUGPvuf8DEeHPEc9ZCaVOJLXhpGCpF8461S3QTAAheFw3XYL9efxAuZOIeGg==",
+      "type": "package",
+      "path": "mahapps.metro.iconpacks/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MahApps.Metro.IconPacks.XML",
+        "lib/net40/MahApps.Metro.IconPacks.dll",
+        "lib/net40/MahApps.Metro.IconPacks.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.XML",
+        "lib/net45/MahApps.Metro.IconPacks.dll",
+        "lib/net45/MahApps.Metro.IconPacks.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.XML",
+        "lib/net46/MahApps.Metro.IconPacks.dll",
+        "lib/net46/MahApps.Metro.IconPacks.pdb",
+        "lib/uap10.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/uap10.0/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/uap10.0/MahApps.Metro.IconPacks.Core.pri",
+        "lib/uap10.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/uap10.0/MahApps.Metro.IconPacks.Core/Converter/Converters.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks.Core/Converter/Converters.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks.Core/MahApps.Metro.IconPacks.Core.xr.xml",
+        "lib/uap10.0/MahApps.Metro.IconPacks.dll",
+        "lib/uap10.0/MahApps.Metro.IconPacks.pdb",
+        "lib/uap10.0/MahApps.Metro.IconPacks.pri",
+        "lib/uap10.0/MahApps.Metro.IconPacks.xml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/MahApps.Metro.IconPacks.xr.xml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/Generic.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/Generic.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/IconPacks.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/IconPacks.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconEntypo.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconEntypo.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconFontAwesome.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconFontAwesome.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconMaterial.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconMaterial.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconMaterialLight.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconMaterialLight.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconModern.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconModern.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconOcticons.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconOcticons.xbf",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconSimpleIcons.xaml",
+        "lib/uap10.0/MahApps.Metro.IconPacks/Themes/PackIconSimpleIcons.xbf",
+        "mahapps.metro.iconpacks.2.3.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+      "sha512": "W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "MvvmWizard/1.1.1": {
+      "sha512": "0kZNFrlFECKTQxDzw5BSEMz+1F3lzB0GpqBVJNAlYZgB3H3HdH+zQE+ovtYQ/UaWm3VgTlcWC8BolU2w9gUeTg==",
+      "type": "package",
+      "path": "mvvmwizard/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MvvmWizard.dll",
+        "mvvmwizard.1.1.1.nupkg.sha512",
+        "mvvmwizard.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NLog/4.7.6": {
+      "sha512": "mVYfNsZk6HY26/S/T3vVd2RS/1GySaeNh6bjP8uE7mKAdTENlRycQr7S4FC+I//QflXl/D/HEEugE47BDxQ5wA==",
+      "type": "package",
+      "path": "nlog/4.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/NLog.dll",
+        "lib/monoandroid44/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40-client/NLog.dll",
+        "lib/net40-client/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "lib/xamarinios10/NLog.dll",
+        "lib/xamarinios10/NLog.xml",
+        "nlog.4.7.6.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NLog.Config/4.7.6": {
+      "sha512": "4rrKtrgMZ4w9dyk/5aVISyGsfdcd+STumZONKouJFlJ3cvWLhw5cLe7QpqE/8SwW4E5Lr3xCqJA9e5QPCVMZNw==",
+      "type": "package",
+      "path": "nlog.config/4.7.6",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NLog.config",
+        "contentFiles/any/any/NLog.config",
+        "nlog.config.4.7.6.nupkg.sha512",
+        "nlog.config.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "NLog.Schema/4.7.6": {
+      "sha512": "wHlakqgco/grSxtY6g2kq0o3QMmpTXgV6kBGXn9CkYxOzoVxMQkB/p5ZoayjOBvWbOUsWqpppo0ETaa/nysg2Q==",
+      "type": "package",
+      "path": "nlog.schema/4.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NLog.xsd",
+        "contentFiles/any/any/NLog.xsd",
+        "nlog.schema.4.7.6.nupkg.sha512",
+        "nlog.schema.nuspec"
+      ]
+    },
+    "PropertyChanged.Fody/3.3.1": {
+      "sha512": "/K/X8wn2IZV7Zezb+WvieOalWopFJKEcB7BrPoDFCj74VexupWdtvqriCoifSyrX0E+XhTzk0cVQd26hQ7TODg==",
+      "type": "package",
+      "path": "propertychanged.fody/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "propertychanged.fody.3.3.1.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
+      ]
+    },
+    "Resource.Embedder/2.1.1": {
+      "sha512": "K8yIH9BGrHh1S7EjdTJItMoNY/D8xsnYZ/NyowvtM19ghXaByEvkugEjiC+6OKgj8vr8nFUfptu2zvGN+SEWTw==",
+      "type": "package",
+      "path": "resource.embedder/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Resource.Embedder.props",
+        "buildMultiTargeting/Resource.Embedder.props",
+        "resource.embedder.2.1.1.nupkg.sha512",
+        "resource.embedder.nuspec",
+        "tasks/net46/Mono.Cecil.Mdb.dll",
+        "tasks/net46/Mono.Cecil.Pdb.dll",
+        "tasks/net46/Mono.Cecil.Rocks.dll",
+        "tasks/net46/Mono.Cecil.dll",
+        "tasks/net46/ResourceEmbedder.Core.dll",
+        "tasks/net46/ResourceEmbedder.MsBuild.dll",
+        "tasks/netstandard2.0/Microsoft.Build.Framework.dll",
+        "tasks/netstandard2.0/Microsoft.Build.Tasks.Core.dll",
+        "tasks/netstandard2.0/Microsoft.Build.Utilities.Core.dll",
+        "tasks/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "tasks/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "tasks/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "tasks/netstandard2.0/Mono.Cecil.dll",
+        "tasks/netstandard2.0/ResourceEmbedder.Core.dll",
+        "tasks/netstandard2.0/ResourceEmbedder.MsBuild.dll",
+        "tasks/netstandard2.0/System.CodeDom.dll",
+        "tasks/netstandard2.0/System.Collections.Concurrent.dll",
+        "tasks/netstandard2.0/System.Collections.Immutable.dll",
+        "tasks/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "tasks/netstandard2.0/System.Dynamic.Runtime.dll",
+        "tasks/netstandard2.0/System.IO.FileSystem.Primitives.dll",
+        "tasks/netstandard2.0/System.Linq.Expressions.dll",
+        "tasks/netstandard2.0/System.Linq.Parallel.dll",
+        "tasks/netstandard2.0/System.Linq.dll",
+        "tasks/netstandard2.0/System.ObjectModel.dll",
+        "tasks/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "tasks/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "tasks/netstandard2.0/System.Reflection.Emit.dll",
+        "tasks/netstandard2.0/System.Reflection.Metadata.dll",
+        "tasks/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "tasks/netstandard2.0/System.Resources.Writer.dll",
+        "tasks/netstandard2.0/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tasks/netstandard2.0/System.Runtime.Numerics.dll",
+        "tasks/netstandard2.0/System.Runtime.Serialization.Primitives.dll",
+        "tasks/netstandard2.0/System.Security.Cryptography.OpenSsl.dll",
+        "tasks/netstandard2.0/System.Security.Cryptography.Primitives.dll",
+        "tasks/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "tasks/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "tasks/netstandard2.0/System.Threading.Thread.dll",
+        "tasks/netstandard2.0/System.Threading.dll"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Steam Library Manager/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../Users/gabri/Desktop/Steam-Library-Manager-master/Source/Steam Library Manager/Steam Library Manager.csproj",
+      "msbuildProject": "../../../../../../Users/gabri/Desktop/Steam-Library-Manager-master/Source/Steam Library Manager/Steam Library Manager.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Steam Library Manager >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\WS\\src\\GitHub\\OpenSourceFinal\\OpenSourceFinal\\OpenSourceFinal\\OpenSourceFinal.csproj",
+      "projectName": "OpenSourceFinal",
+      "projectPath": "C:\\WS\\src\\GitHub\\OpenSourceFinal\\OpenSourceFinal\\OpenSourceFinal\\OpenSourceFinal.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\WS\\src\\GitHub\\OpenSourceFinal\\OpenSourceFinal\\OpenSourceFinal\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\gabri\\Desktop\\Steam-Library-Manager-master\\Source\\Steam Library Manager\\Steam Library Manager.csproj": {
+              "projectPath": "C:\\Users\\gabri\\Desktop\\Steam-Library-Manager-master\\Source\\Steam Library Manager\\Steam Library Manager.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AlphaFS 2.2.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AlphaFS",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autoupdater.NET.Official 1.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Autoupdater.NET.Official",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ControlzEx 3.0.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ControlzEx",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MahApps.Metro 1.6.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MahApps.Metro",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MahApps.Metro.IconPacks 2.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MahApps.Metro.IconPacks",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MvvmWizard 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MvvmWizard",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
